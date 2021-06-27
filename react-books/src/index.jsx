@@ -14,8 +14,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/Detail" component={Detail} exact />
-      <Route path="/Search" component={Search} exact />
+      <Route path="/detail" component={Detail} exact />
+      <Route path="/search" component={Search} exact />
     </Switch>
   </BrowserRouter>,
   /*  <React.StrictMode>

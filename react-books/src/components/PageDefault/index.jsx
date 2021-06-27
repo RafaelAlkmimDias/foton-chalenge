@@ -1,17 +1,17 @@
 import React from 'react';
 import { Background, Content } from './style';
-import Search from '../Search';
 import Menu from '../Menu';
+import SearchInput from '../SearchInput';
 
 // eslint-disable-next-line react/prop-types
-const PageDefault = ({ children }) => (
+const PageDefault = ({ children, search, startSearch }) => (
   <>
     <Background>
-      <Search/>
+      <SearchInput label="Search book" getData={search} startSearch={startSearch} />
       <Content>
         { children }
       </Content>
-      <Menu/>
+      <Menu />
     </Background>
   </>
 );
