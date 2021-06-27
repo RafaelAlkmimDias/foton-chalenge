@@ -1,3 +1,7 @@
+In order to run this app you need to enter the react-books folder and run npm start
+
+
+
 # Frontend Challenge
 
 Clone this repository and start our challenge **right now**
